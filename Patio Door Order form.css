@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  vertical-align: top;
+  padding: 0px;
+}
+
+.BlackBackground {
+  background-color: black;
+}
+
+.Patio__Table__CheckBox {
+  height: calc(1em + 2px);
+  border-bottom: 1px solid black;
+}
+
+.Patio__Table__CheckBox-Width1 {
+  width: 30px;
+}
+
+.Patio__Table__CheckBox-Width2 {
+  width: 60px;
+}
+
+.Patio__Table__CheckBox-Width3 {
+  width: 90px;
+}
+
+.Height100 {
+  height: 100%;
+}
+
+.Space {
+  height: calc(1em + 2px);
+}
+
+.TextCenter {
+  text-align: center;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.UnderLine {
+  text-decoration: underline;
+}
+
+.Patio__Table ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.Col:not(.Col:first-child) {
+  margin-left: 30px;
+}
+
+.Col ul:last-child {
+  padding-right: 10px;
+}
+
+.Col.Border {
+  border: 1px solid black;
+}
+
+.Col.Border:first-child {
+  border-left: 0px;
+  border-right: 1px solid black;
+}
+.Col.Border:last-child {
+  border-left: 1px solid black;
+  border-right: 0px;
+}
+/* .Patio__Table__FirstRow ul:nth-of-type(3),
+.Patio__Table__FirstRow ul:nth-of-type(4) {
+  margin-left: 30px;
+} */
