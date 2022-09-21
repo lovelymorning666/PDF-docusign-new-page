@@ -98,3 +98,27 @@ div:has(table.Patio_Information) {
 .Patio__Table__FirstRow ul:nth-of-type(4) {
   margin-left: 30px;
 } */
+
+.BigFont {
+  font-size: 21px;
+}
+
+.BlueFont {
+  color: Blue;
+}
+
+.Width300 {
+  width: 300px;
+}
+
+.Flex {
+  display: flex;
+}
+
+.ItalicFont {
+  font-style: italic;
+}
+
+.WhiteColor {
+  color: white;
+}
