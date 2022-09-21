@@ -6,15 +6,19 @@ body {
 * {
   box-sizing: border-box;
 }
-table,
-th,
-td {
+table.Patio__Table,
+table.Patio__Table th,
+table.Patio__Table td {
   border: 1px solid black;
   border-collapse: collapse;
   vertical-align: top;
   padding: 0px;
 }
 
+div:has(table.Patio_Information) {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .BlackBackground {
   background-color: black;
 }
@@ -70,7 +74,15 @@ td {
   padding-right: 10px;
 }
 
-.Col.Border {
+.Border-Left {
+  border-left: 1px solid black;
+}
+
+.Border-Bottom {
+  border-bottom: 1px solid black;
+}
+
+.Border {
   border: 1px solid black;
 }
 
