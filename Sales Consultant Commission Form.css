@@ -1,21 +1,21 @@
-table.Patio__Table1,
-table.Patio__Table1 th,
-table.Patio__Table1 td {
+table.PatioForm1,
+table.PatioForm1 th,
+table.PatioForm1 td {
   border: 1px solid rgb(197, 197, 197);
   border-collapse: collapse;
   vertical-align: top;
   padding: 3px;
 }
 
-table.Patio__Table1 th {
+table.PatioForm1 th {
   background-color: RGB(190, 190, 190);
 }
 
-table.Patio__Table1 td {
+table.PatioForm1 td {
   position: relative;
 }
-table.Patio__Table1 td:first-child,
-table.Patio__Table1 td:nth-child(3) {
+table.PatioForm1 td:first-child,
+table.PatioForm1 td:nth-child(3) {
   text-align: right;
   /* position: absolute;
   right: 0px; */
@@ -23,20 +23,20 @@ table.Patio__Table1 td:nth-child(3) {
   flex-direction: row-reverse; */
 }
 
-table.Patio__Table1 td:first-child {
+table.PatioForm1 td:first-child {
   background-color: RGB(220, 220, 220);
 }
 
-table.Patio__Table1 tr:nth-child(2) td:nth-child(2),
-table.Patio__Table1 tr:nth-child(2) td:nth-child(4),
-table.Patio__Table1 tr:nth-child(3) td:nth-child(2),
-table.Patio__Table1 tr:nth-child(3) td:nth-child(4),
-table.Patio__Table1 tr:nth-child(4) td:nth-child(2),
-table.Patio__Table1 tr:nth-child(4) td:nth-child(4) {
+table.PatioForm1 tr:nth-child(2) td:nth-child(2),
+table.PatioForm1 tr:nth-child(2) td:nth-child(4),
+table.PatioForm1 tr:nth-child(3) td:nth-child(2),
+table.PatioForm1 tr:nth-child(3) td:nth-child(4),
+table.PatioForm1 tr:nth-child(4) td:nth-child(2),
+table.PatioForm1 tr:nth-child(4) td:nth-child(4) {
   color: red;
 }
 
-table.Patio__Table1 tr:nth-child(2n + 1) {
+table.PatioForm1 tr:nth-child(2n + 1) {
   background-color: RGB(245, 245, 245);
 }
 
